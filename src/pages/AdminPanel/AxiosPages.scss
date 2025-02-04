@@ -1,0 +1,93 @@
+.adminGrid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 0 30px;
+}
+
+.containerAdmin {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.removeBtn{
+  padding-left: 0;
+  font-family: "Razer F5 Bold";
+  background: transparent;
+  border: 1px solid #44d62c;
+  padding: 0 5px;
+  cursor: pointer;
+  &:hover {
+    color: #000;
+    background: #fff;
+  }
+}
+
+.get-device {
+  margin: 40px 0;
+  
+}
+.get-razer {
+  display: grid !important;
+  grid-template-columns: repeat(4,1fr);
+  gap: 5px;
+}
+
+.admin-razer {
+  text-align: center;
+  border: 2px solid #44d62c;
+  .desc {
+    min-height: 61px;
+  }
+  .price{
+    color:#44d62c;
+    font-weight: bold;
+  }
+  img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    }
+    h6{
+      min-height: 61px;
+    }
+    
+}
+
+
+@media all and (max-width:1282px) {
+  .containerAdmin {
+    padding: 0 20px;
+  }
+  .adminGrid {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 0 20px;
+  }
+}
+
+
+@media all and (max-width:768px) {
+  .get-razer {
+    display: grid !important;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+  }
+}
+
+
+@media all and (max-width:440px) {
+  .containerAdmin {
+    padding: 10px;
+  }
+  .adminGrid {
+    gap: 0;
+  }
+  .get-razer {
+    display: grid !important;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    img{
+      width: 100px;
+    }
+  }
+}

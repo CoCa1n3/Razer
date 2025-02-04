@@ -1,0 +1,92 @@
+.example {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
+}
+.create-post {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  input,
+  .postBtn {
+    margin: 20px 0;
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: 1px solid #fff;
+    padding-left: 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: "Razer F5 Medium";
+    &:hover {
+      color: #fff;
+    }
+  }
+  .postBtn {
+    padding-left: 0;
+    font-family: "Razer F5 Bold";
+    &:active {
+      color: #000;
+      background: #fff;
+    }
+  }
+}
+.asThis {
+  width: 500px;
+  height: 550px;
+
+  margin-top: 50px;
+  border: 2px solid #44d62c;
+  text-align: center;
+  img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+}
+
+.bbb {
+  color: #fff;
+  background: #000;
+}
+
+@media all and (max-width: 966px) {
+  .example {
+    padding-left: 100px;
+  }
+  .create-post input {
+    width: 300px;
+  }
+  .postBtn-div .postBtn {
+    width: 300px;
+  }
+  .asThis {
+    width: 300px;
+  }
+}
+@media all and (max-width: 856px) {
+  .admincon {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .example {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 30px;
+    padding-left: 0;
+  }
+  .create-post input {
+    width: 100%;
+  }
+  .create-post input {
+    width: 100%;
+  }
+  .postBtn-div button {
+    float: right;
+  }
+  .asThis {
+    display: none;
+  }
+}

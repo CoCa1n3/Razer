@@ -1,0 +1,128 @@
+.PC-Sect {
+  background: #252525;
+  width: 100%;
+  height: max-content;
+}
+
+.dark-content {
+  width: 100%;
+  height: max-content;
+  padding: 3rem 20px;
+  background: #111111;
+  margin-bottom: 20px;
+}
+
+.texts {
+  text-align: center;
+}
+
+.two-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding-bottom: 20px;
+}
+
+.pcs-left {
+  background: url("https://assets2.razerzone.com/images/pnx.assets/cd9237a6f61e604675e80e0c098f5a64/mice-category-558x587-desktop.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 580px;
+  border-bottom: #44d62c solid 1px;
+  text-align: center;
+  padding-top: 50px;
+
+  button {
+    background: transparent;
+    border: none;
+    color: #44d62c;
+    font-family: "Razer F5 Regular";
+    font-size: 1.125rem;
+    cursor: pointer;
+  }
+}
+
+.pcs-right {
+  background: url("https://assets2.razerzone.com/images/pnx.assets/cd9237a6f61e604675e80e0c098f5a64/mousemats-category-558x587-desktop.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 580px;
+  border-bottom: #44d62c solid 1px;
+  text-align: center;
+  padding-top: 50px;
+
+  button {
+    background: transparent;
+    border: none;
+    color: #44d62c;
+    font-family: "Razer F5 Regular";
+    font-size: 1.125rem;
+    cursor: pointer;
+  }
+}
+
+.pcs-left1 {
+  background: url("https://assets2.razerzone.com/images/pnx.assets/cd9237a6f61e604675e80e0c098f5a64/keyboards-category-558x587-desktop.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 580px;
+  border-bottom: #44d62c solid 1px;
+  text-align: center;
+  padding-top: 50px;
+
+  button {
+    background: transparent;
+    border: none;
+    color: #44d62c;
+    font-family: "Razer F5 Regular";
+    font-size: 1.125rem;
+    cursor: pointer;
+  }
+}
+
+.pcs-right1 {
+  background: url("https://assets2.razerzone.com/images/pnx.assets/cd9237a6f61e604675e80e0c098f5a64/audio-category-558x587-desktop.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 580px;
+  border-bottom: #44d62c solid 1px;
+  text-align: center;
+  padding: 50px;
+
+  button {
+    background: transparent;
+    border: none;
+    color: #44d62c;
+    font-family: "Razer F5 Regular";
+    font-size: 1.125rem;
+    cursor: pointer;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .two-div {
+    padding: 30px 20px;
+    padding-bottom: 50px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .two-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    padding-bottom: 30px !important;
+    padding: 10px 50px;
+    div {
+      padding-top: 70px;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+  }
+}
+@media all and (max-width: 600px) {
+  .two-div {
+    padding: 10px 20px;
+  }
+}

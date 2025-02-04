@@ -1,0 +1,112 @@
+.category {
+  font-family: "Razer F5 Bold";
+  font-size: 35px;
+  margin: 30px 0;
+  border-bottom: 3px solid #44d62c;
+}
+.mice-parent {
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.mice-children {
+  margin: 40px 0;
+  background: #252525;
+  height: max-content;
+  position: relative;
+  .card__heart_icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+
+.card__heart_icon__active {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 24px;
+  fill: #44d62c;
+  cursor: pointer;
+}
+
+.mice-children img {
+  background: #111;
+  height: 250px;
+  width: 100%;
+  object-fit: contain;
+}
+.mice-body {
+  padding: 10px 15px;
+  h3 {
+    min-height: 115px;
+  }
+  p {
+    font-size: 13px;
+    min-height: 45px;
+    color: #888888;
+    font-weight: 400;
+    font-family: "Razer F5 Medium";
+  }
+}
+.mice-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  button {
+    background: #44d62c;
+    border: none;
+    border-radius: 6px;
+    width: 60px;
+    height: 25px;
+    color: #000;
+    font-family: "Razer F5 Bold";
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  button:hover {
+    width: 70px;
+    font-size: 17px;
+  }
+  .cancelBtn {
+    background: #111111;
+    border: none;
+    border-radius: 6px;
+    width: 60px;
+    height: 25px;
+    color: #fff;
+    font-family: "Razer F5 Bold";
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
+@media all and (max-width: 1281px) {
+  .mice-parent {
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .containerStore {
+    padding: 0 40px;
+  }
+}
+@media all and (max-width: 935px) {
+  .mice-parent {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .mice-parent {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px 0;
+  }
+}

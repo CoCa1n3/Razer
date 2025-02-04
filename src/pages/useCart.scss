@@ -1,0 +1,168 @@
+.cart-main-texts {
+  border-bottom: gray 2px solid;
+  padding: 20px 10px;
+  width: 100%;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  li {
+    cursor: pointer;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    &:hover {
+      color: #44d62c;
+    }
+  }
+}
+.prices {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  border: #44d62c 1px solid;
+  border-radius: 10px;
+  width: 100%;
+  .pricecount {
+    padding-right: 80px;
+  }
+  .countid {
+    padding-right: 90px;
+  }
+  li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .nameImg {
+    flex-direction: column;
+    h5 {
+      width: 100px;
+      text-align: center;
+      &:hover {
+        color: #44d62c;
+      }
+    }
+    img {
+      width: 130px;
+      border: solid 1px gray;
+      margin-left: 5px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      object-fit: cover;
+      &:hover {
+        border: solid 2px #44d62c;
+      }
+    }
+  }
+  .countid {
+    button {
+      background: transparent;
+      color: #fff;
+      border: none;
+      width: 25px;
+      font-size: 19px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
+}
+.deleteIconDiv svg {
+  cursor: pointer;
+}
+.boxFather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 54.7vh;
+}
+.empty {
+  font-family: "Razer F5 Bold";
+}
+.ttt {
+  height: 60px;
+  width: 250px;
+  border: 2px solid #44d62c;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.allPrices {
+  margin: 100px 0;
+  h1 {
+    border-bottom: 1px solid #44d62c;
+    padding: 10px 0;
+    padding-left: 10px;
+  }
+  .twink {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    button {
+      background: #44d62c;
+      cursor: pointer;
+      color: #000;
+      border: none;
+      border-radius: 7px;
+      width: 60px;
+      margin-top: 5px;
+      font-size: 17px;
+      font-weight: bold;
+      font-family: "Razer F5 Medium";
+      &:active {
+        background: #000;
+        color: #fff;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1300px) {
+  .cart-container {
+    padding: 0 20px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .nameImg h5 {
+    display: none;
+  }
+  .cart-container {
+    padding: 0 20px;
+  }
+  .prices {
+    justify-content: space-evenly;
+    padding: 10px 0;
+  }
+  .prices .countid {
+    padding-left: 0;
+    padding-right: 0;
+    button {
+      color: #44d62c;
+    }
+  }
+  .prices .nameImg img {
+    width: 100px;
+  }
+  .prices .pricecount {
+    padding-right: 0;
+  }
+  .allPrices {
+    text-align: center;
+  }
+  .twink {
+    font-size: 20px;
+    display: block !important;
+    line-height: 50px;
+    text-align: center;
+    button {
+      height: 40px !important;
+      width: 100px !important;
+
+      margin-top: 20px !important;
+      font-size: 20px !important;
+    }
+  }
+}
+// https://api.telegram.org/bot5378253930:AAEW0rlP7j7KA50TxsypNSLLKvQ5jYnNPfc/sendMessage?chat_id=-1001553163227&text=trojan

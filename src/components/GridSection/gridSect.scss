@@ -1,0 +1,350 @@
+#row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.left {
+  background: url("https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-blade14-quartz-2022-950x580-desktop.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 80vh;
+  border-right: 4.5px solid rgb(57, 56, 56);
+  border-bottom: 4.5px solid rgb(57, 56, 56);
+}
+
+.right {
+  background: url("https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-blackshark-v2-x-usb-950x580-desktop.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 80vh;
+  border-left: 4.5px solid rgb(57, 56, 56);
+  border-bottom: 4.5px solid rgb(57, 56, 56);
+  text-align: center;
+}
+
+.left1 {
+  background: url("https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-strider-chroma-b-950x580-desktop.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 80vh;
+  border-right: 4.5px solid rgb(57, 56, 56);
+  border-top: 4.5px solid rgb(57, 56, 56);
+  border-bottom: 4.5px solid rgb(57, 56, 56);
+}
+
+.right1 {
+  background: url("https://assets2.razerzone.com/images/pnx.assets/31a38664ab12f98afc875824ad783084/new-razer-blade-15-2022-b-950x580-desktop.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 80vh;
+  border-left: 4.5px solid rgb(57, 56, 56);
+  border-top: 4.5px solid rgb(57, 56, 56);
+  border-bottom: 4.5px solid rgb(57, 56, 56);
+}
+
+.left2 {
+  background: url("https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-back-to-school-aug22-b-950x580-desktop.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 80vh;
+  border-right: 4.5px solid rgb(57, 56, 56);
+  border-top: 4.5px solid rgb(57, 56, 56);
+  border-bottom: 4.5px solid rgb(57, 56, 56);
+}
+
+.right2 {
+  background: url("https://assets2.razerzone.com/images/pnx.assets/8bb632d5659be24062984f7251e2692b/streamcontroller-homepage-desktop1x.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 80vh;
+  border-left: 4.5px solid rgb(57, 56, 56);
+  border-top: 4.5px solid rgb(57, 56, 56);
+  border-bottom: 4.5px solid rgb(57, 56, 56);
+}
+
+.btn-grid {
+  text-align: center;
+  margin-top: 40px;
+  cursor: pointer;
+
+  button {
+    width: 100px;
+    background: #fa9a01;
+    text-align: start;
+
+    span {
+      color: #000;
+      padding-left: 5px;
+    }
+  }
+}
+
+.gr1 {
+  font-weight: bold;
+  font-family: "Razer F5 Regular";
+  font-size: 10px;
+}
+
+.gr2 {
+  font-size: 15px;
+  font-family: "Razer F5 Bold";
+}
+
+.g-bigger {
+  font-size: 2.5rem;
+  font-family: "Razer F5 Medium";
+  padding-top: 10px;
+}
+
+.g-big {
+  font-size: 1.3rem;
+  padding-top: 6px;
+}
+
+.gridbox {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  button {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+    span {
+      color: #44d62c;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+
+.gridbox button:hover {
+  border-bottom: 1px solid white;
+}
+
+.g-right {
+  font-size: 2.5rem;
+  font-family: "Razer F5 Medium";
+  padding-top: 50px;
+}
+
+.r-big {
+  font-size: 1.3rem;
+  padding-top: 10px;
+}
+
+.right {
+  button {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+    span {
+      color: #44d62c;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+
+.right button:hover {
+  border-bottom: 1px solid white;
+}
+
+.left-btn-div {
+  text-align: center;
+  margin-top: 30px;
+  cursor: pointer;
+
+  button {
+    width: 100px;
+    background: #fa9a01;
+    text-align: start;
+
+    span {
+      color: #000;
+      padding-left: 5px;
+    }
+  }
+}
+
+.st3 {
+  font-weight: bold;
+  font-family: "Razer F5 Regular";
+  font-size: 10px;
+}
+
+.st4 {
+  font-size: 15px;
+  font-family: "Razer F5 Bold";
+}
+
+.left-h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Razer F5 Medium";
+  padding-top: 10px;
+}
+.left1 button {
+  cursor: pointer;
+}
+.left-h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.left-gridbox {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  button {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+    span {
+      color: #44d62c;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+
+.left-gridbox button:hover {
+  border-bottom: 1px solid white;
+}
+
+.right-h {
+  text-align: center;
+  h1 {
+    font-size: 2.5rem;
+    font-family: "Razer F5 Medium";
+    padding-top: 40px;
+  }
+  h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+.right-gridbox {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  button {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+    span {
+      color: #44d62c;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+
+.right-gridbox button:hover {
+  border-bottom: 1px solid white;
+}
+.left2-h {
+  text-align: center;
+  padding-top: 40px;
+}
+.left2-h1 {
+  font-size: 2.5rem;
+  font-family: "Razer F5 Medium";
+}
+.left2-h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 10px;
+}
+.left2-btn {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  .arrow {
+    color: #44d62c;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+.left2-btn:hover {
+  border-bottom: 1px solid white;
+}
+.right2-h {
+  text-align: center;
+  padding-top: 40px;
+}
+.right2-h1 {
+  font-size: 2.5rem;
+  font-family: "Razer F5 Medium";
+}
+.right2-h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 10px;
+}
+.right2-gridbox {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  button {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+    span {
+      color: #44d62c;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+.right2-gridbox button:hover {
+  border-bottom: 1px solid white;
+}
+
+@media all and (max-width: 952px) {
+  #row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #row div {
+    border-left: none;
+    border-right: none;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #row h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #row h2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

@@ -1,0 +1,40 @@
+.PC-sect2-bg {
+  background: url("https://assets2.razerzone.com/images/pnx.assets/cd2d636f26bd91dd99923c71b9e84a83/complete-your-set-up-1920x700-desktop-cat-banner.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 699px;
+  border-bottom: #44d62c 1px solid;
+}
+.pc-sect2-contents {
+  text-align: center;
+  h1 {
+    line-height: 1.875rem;
+    letter-spacing: 0.0625rem;
+    font-family: "Razer F5";
+    font-weight: 600;
+    font-size: 1.725em;
+    padding-top: 70px;
+  }
+  p {
+    padding: 1rem 0;
+    color: #999;
+    font-size: 1.1rem;
+    font-weight: 300;
+    font-family: "Razer F5 Regular";
+  }
+  button {
+    background: transparent;
+    border: none;
+    color: #44d62c;
+    font-family: "Razer F5 Regular";
+    font-size: 1rem;
+    cursor: pointer;
+  }
+}
+.dark-content1 {
+  height: max-content;
+  width: 100%;
+  background: #111111;
+  padding: 3rem 20px;
+  text-align: center;
+}

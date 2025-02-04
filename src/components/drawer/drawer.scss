@@ -1,0 +1,58 @@
+.drawer-container {
+  min-width: 100%;
+  background: #040404 !important;
+
+  .drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .close {
+      width: 28px;
+      height: 50px;
+      object-fit: contain;
+      cursor: pointer;
+    }
+
+    .logo {
+      width: 35px;
+      height: 35px;
+      object-fit: contain;
+      cursor: pointer;
+    }
+  }
+
+  .drawer-body {
+    margin-top: 32px;
+
+    input {
+      background: #222;
+      border: 0;
+      border-radius: 10px;
+      width: 100%;
+      height: 40px;
+      font-size: 16px;
+      font-family: "Razer F5 Medium";
+      padding-left: 15px;
+      outline: none;
+    }
+
+    .navigate-links {
+      margin-top: 16px;
+      display: grid;
+
+      a {
+        margin-top: 16px;
+        border-bottom: 2px solid #222;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.log_out {
+  background: #44d62c;
+  border-radius: 5px;
+  color: #fff !important;
+  padding: 0 7px;
+}

@@ -1,0 +1,137 @@
+footer {
+  border-top: 4.5px solid rgb(57, 56, 56);
+  background: #111;
+  width: 100%;
+  height: max-content;
+  padding: 40px 0;
+}
+.footer-father {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 20px 0;
+  border-bottom: 1px solid gray;
+  div p {
+    cursor: pointer;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #a9a8a8;
+    font-family: "Razer F5 Regular";
+  }
+}
+.f-5 h3 {
+  color: #44d62c;
+  font-size: 14px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.f-icons {
+  text-align: right;
+}
+.f-icons img {
+  color: #44d62c;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.facebook {
+  width: 30px;
+  height: 30px;
+}
+.inst {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+.twitter {
+  width: 30px;
+  height: 30px;
+}
+.label1,
+.label2,
+.label3,
+.label4 {
+  color: #fff !important;
+  font-family: "Razer F5 Medium" !important;
+  font-size: 13px !important;
+}
+.f-end {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+
+  p {
+    color: #a9a8a8;
+    font-size: 13px;
+    font-family: "Razer F5 Medium" !important;
+  }
+}
+.f-links a {
+  font-size: 13px;
+  color: #a9a8a8;
+  font-family: "Razer F5 Medium" !important;
+}
+.f-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.f-links span {
+  color: #a9a8a8;
+  padding: 0 10px;
+}
+.f-p {
+  padding-top: 5px;
+}
+.icons-div-end {
+  display: none;
+}
+@media all and (max-width: 1333px) {
+  .footer-father {
+    padding: 25px 40px;
+  }
+  .f-end {
+    padding: 10px 40px;
+  }
+}
+
+@media all and (max-width: 750px) {
+  footer {
+    height: max-content;
+    padding: 20px 0;
+  }
+  .footer-father {
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+  }
+  .icons-div {
+    display: none;
+  }
+  .icons-div-end {
+    display: block;
+    text-align: center !important;
+    h3 {
+      color: #44d62c;
+    }
+  }
+  .f-end {
+    display: block;
+    text-align: center;
+    line-height: 30px;
+  }
+  .f-icons {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .footer-father {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+  .label1,
+  .label2,
+  .label3,
+  .label4 {
+    padding-top: 15px;
+  }
+}

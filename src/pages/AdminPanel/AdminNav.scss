@@ -1,0 +1,42 @@
+.panel {
+  height: max-content;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  a h3 {
+    color: #a9a8a8;
+    &:hover {
+      color: white;
+    }
+  }
+}
+.adminNav {
+  border-bottom: 2px solid #a9a8a8;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: #000;
+}
+
+@media all and (max-width: 1281px) {
+  .adminNav {
+    padding: 0 20px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .panel {
+    display: block;
+
+    padding: 0;
+    padding-bottom: 10px;
+    h3 {
+      border-bottom: 1px solid #44d62c;
+      padding: 5px 0;
+    }
+  }
+}

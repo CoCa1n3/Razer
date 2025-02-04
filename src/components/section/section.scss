@@ -1,0 +1,90 @@
+.sect1 {
+  background: url("https://assets2.razerzone.com/images/pnx.assets/d24672112ff237ece31fd792eb39dba6/razer-enki-pro-koenigsegg-williams-esports-homepage-large.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 91vh;
+  border-top: 6px solid rgb(57, 56, 56);
+  border-bottom: 9px solid rgb(57, 56, 56);
+}
+
+.btn-div {
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+  .link-btn {
+    width: 100px;
+    background: #fa9a01;
+    text-align: start;
+    cursor: pointer;
+    .st1 {
+      color: #000;
+      padding-left: 5px;
+    }
+    .st2 {
+      color: #000;
+      padding-left: 5px;
+    }
+  }
+}
+.st1 {
+  font-weight: bold;
+  font-family: "Razer F5 Regular";
+  font-size: 10px;
+}
+.st2 {
+  font-size: 15px;
+  font-family: "Razer F5 Bold";
+}
+
+.s-bigger {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Razer F5 Medium";
+  letter-spacing: 3px;
+}
+
+.s-big {
+  font-weight: 300;
+  text-align: center;
+  font-size: 30px;
+}
+.s-btns {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  .arrow {
+    color: #44d62c;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+.s-btns button {
+  background: transparent;
+  border: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+.s-btns button:hover {
+  border-bottom: 2px solid #fff;
+}
+
+@media all and (min-width: 1280px) {
+  .container {
+    max-width: 1146px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .s-bigger {
+    font-size: 35px;
+  }
+  .s-big {
+    font-size: 20px;
+  }
+  .s-btns {
+    flex-direction: column;
+    text-align: center;
+  }
+}

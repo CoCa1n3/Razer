@@ -1,0 +1,69 @@
+.reg_parent {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.reg_child {
+  width: 330px;
+  height: 500px;
+  position: relative;
+
+  font-family: "Razer F5 Bold";
+  border-radius: 12px;
+  border: 2px solid #44d62c;
+  text-align: center;
+  display: block;
+  padding: 20px;
+}
+
+.reg_child img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.reg_child input {
+  background: #252525;
+  width: 100%;
+  height: 35px;
+  border: 1px solid #44d62c;
+  border-radius: 3px;
+  margin: 10px 0;
+  padding-left: 10px;
+  outline: none;
+  font-size: 18px;
+}
+
+.reg_child button {
+  background: #44d62c;
+  color: #252525;
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.reg_child button:active {
+  background: #252525;
+  color: #44d62c;
+  font-size: 16px;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.reg_child p {
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+}
+
+.reg_child p a {
+  color: #44d62c !important;
+}

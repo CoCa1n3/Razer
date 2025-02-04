@@ -1,0 +1,137 @@
+.services {
+  height: max-content;
+  background: #111;
+  padding: 3rem 0;
+  text-align: center;
+  h1 {
+    color: #44d62c;
+    font-size: 2.25rem;
+    font-weight: 200;
+  }
+  p {
+    color: #999;
+    font-size: 1.125rem;
+    font-family: "Razer F5 Regular";
+    padding: 0 3rem;
+  }
+}
+.razercare {
+  background: url("../../images/razercare.jpg") no-repeat center center/cover;
+  width: 100%;
+  min-height: 700px;
+}
+.caretexts {
+  text-align: center;
+  padding: 50px 0;
+  p {
+    color: #999;
+    font-size: 1.125rem;
+    font-family: "Razer F5 Regular";
+    padding: 1rem;
+    line-height: 30px;
+  }
+  a {
+    background: transparent;
+    color: #44d62c;
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+}
+.razerid {
+  background: url("../../images//razerid.jpg") no-repeat center center/cover;
+  width: 100%;
+  min-height: 700px;
+}
+.razeridtexts {
+  text-align: center;
+  padding: 50px 0;
+  p {
+    color: #999;
+    font-size: 1.125rem;
+    font-family: "Razer F5 Regular";
+    line-height: 30px;
+    padding: 1rem;
+  }
+  a {
+    background: transparent;
+    color: #44d62c;
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+}
+.service-form {
+  height: max-content;
+  padding: 30px 0;
+  h1 {
+    text-align: center;
+    color: #44d62c;
+  }
+  input {
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    background: black;
+    border: none;
+    background: rgb(51, 51, 51);
+    color: white;
+    border-bottom: 2px solid gray;
+    margin: 0 40px;
+  }
+  .btn:active {
+    background: #3cd924;
+    font-weight: bold;
+  }
+  form {
+    text-align: center;
+    padding: 40px 0;
+  }
+  .inp {
+    padding-left: 10px;
+    width: 150px;
+  }
+  input:focus {
+    outline: none;
+    border: #44d62c 1px solid;
+  }
+}
+@media all and (max-width: 950px) {
+  .service-form h1 {
+    font-size: 30px;
+  }
+  .service-form .btn {
+    margin-top: 10px;
+  }
+  .service-form .inp {
+    margin: 0 10px;
+  }
+  .services,
+  .razercare,
+  .razerid {
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+}
+@media all and (max-width: 590px) {
+  .service-form .inp3 {
+    margin-left: 20px;
+  }
+}
+
+@media all and (max-width: 440px) {
+  .service-form .inp {
+    margin-top: 20px;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .service-form .inp3 {
+    margin-left: 10px;
+  }
+  .service-form .inp {
+    width: 280px;
+  }
+}

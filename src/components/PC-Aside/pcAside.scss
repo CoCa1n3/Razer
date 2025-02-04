@@ -1,0 +1,75 @@
+.last-grid-pc {
+  background: #252525;
+  width: 100%;
+  height: max-content;
+}
+.gr-pc-last {
+  margin: 0;
+}
+.pr2 {
+  grid-gap: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.inside-c {
+  height: 100px;
+}
+.pred-footer {
+  background: url("https://assets2.razerzone.com/images/pnx.assets/d20a9f320f5d60e2b92043b7d4cc2f7a/ms-audio-banner-desktop.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 400px;
+}
+.pustoyla {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.pustoy-on {
+  padding: 60px 20px 0 130px;
+  h1 {
+    color: #44d62c;
+  }
+  h4 {
+    padding-top: 10px;
+    color: #999999;
+    font-size: 18px;
+  }
+  img {
+    margin-top: 20px;
+  }
+  p {
+    padding-top: 20px;
+    color: #888888;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+@media all and (max-width: 1160px) {
+  .pustoy-on p {
+    display: none;
+  }
+  .pustoy-on {
+    padding: 90px 60px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .pustoy-on img {
+    display: none;
+  }
+  .pustoy-on h1 {
+    font-weight: bold;
+    color: #44d62c;
+  }
+}
+
+@media all and (max-width: 796px) {
+  .pustoy-on {
+    padding: 70px 60px;
+  }
+  .pustoy-on h4 {
+    font-size: 15px;
+  }
+}
