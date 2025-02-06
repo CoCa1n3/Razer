@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "./services.scss";
 import emailjs from "@emailjs/browser";
+import axios from "axios";
 
 const ServiceSection = () => {
   const form = useRef();
@@ -18,13 +19,39 @@ const ServiceSection = () => {
       .then(
         (result) => {
           console.log(result.text);
+
+          // После успешной отправки email отправляем данные в Telegram
+          const formData = new FormData(form.current);
+          const name = formData.get("name");
+          const email = formData.get("from_name");
+          const message = formData.get("message");
+
+          const telegramMessage = `
+<b>New Contact Request:</b>
+
+<b>Name:</b> ${name}
+<b>Email:</b> ${email}
+<b>Message:</b> ${message}
+          `;
+
+          axios.post(
+            `https://api.telegram.org/bot7590455402:AAG_YFdXHZcsBD4wV41xIMrtcTYx_yfKWjc/sendMessage`,
+            {
+              chat_id: "-4775727901",
+              text: telegramMessage,
+              parse_mode: "html",
+            }
+          );
+
+          // Очищаем форму после отправки
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
         }
       );
-    form.current.reset();
   };
+
   return (
     <>
       <div className="service-form">
@@ -43,7 +70,7 @@ const ServiceSection = () => {
             type="email"
             placeholder="Your email"
           />
-          <input
+          <input  
             className="inp inp3"
             placeholder="Message"
             name="message"
