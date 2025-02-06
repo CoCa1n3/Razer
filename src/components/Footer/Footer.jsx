@@ -56,7 +56,7 @@ const Footer = () => {
               <p>Copyright © 2022 Razer Inc. All rights reserved.</p>
             </div>
             <div className="f-links">
-              <a href="">Created by: Rakhmonberdiev</a>
+              <a href="https://t.me/umar_rakhmonberdiev">Created by: Rakhmonberdiev</a>
               <span>|</span>
               <a href="https://it-academy.uz/" target="_blank">
                 IT academy
